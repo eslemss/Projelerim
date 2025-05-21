@@ -88,3 +88,5 @@ Görsellerin doğru görünmesi için image/ dizini yapılandırılmalıdır.
 README.md otomatik üretim için list_all_content.py kullanılabilir.
 
 
+💻Hazırlayan: 
+Ayşe Eslem Gökhan
