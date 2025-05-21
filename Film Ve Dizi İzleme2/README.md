@@ -3,6 +3,7 @@
 
   
 📌 Proje Tanımı
+
 Bu Python tabanlı uygulama, kullanıcıların film ve dizilerini veritabanı destekli olarak yönetmesine olanak tanır. Veritabanı üzerinde içerik ekleme, listeleme, güncelleme ve özel içerik işlemleri gerçekleştirilebilir.
 
 🧱 Uygulama Mimarisi
