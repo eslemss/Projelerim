@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonem Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <div class="nav-left">
+                <span class="logo-box">
+                    <span class="logo-main">FONEM.</span>
+                    <span class="logo-sub">LIBRARY</span>
+                </span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#bookstore">Bookstore</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <span class="nav-icon user" id="loginBtn">
+                    <svg width="22" height="22" fill="none" stroke="#163A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a8.38 8.38 0 0 1 13 0"/></svg>
+                    <span class="nav-login" id="loginText" data-key="login">Log In</span>
+                </span>
+                <span class="nav-icon cart">
+                    <svg width="22" height="22" fill="none" stroke="#163A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-bg">
+            <div class="hero-text">
+                <h1 data-key="heroTitle">A SOFA,<br>A GOOD BOOK,<br>AND YOU.</h1>
+                <p data-key="heroDesc">Discover your next favorite book and manage your library with ease.</p>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=80" alt="Books on sofa">
+            </div>
+        </div>
+    </header>
+    <!-- Bestsellers Carousel -->
+    <section class="bestseller-section" id="bookstore">
+        <div class="bestseller-header">
+            <div class="bestseller-sub">FONEM. Library</div>
+            <h2 class="section-title">BESTSELLERS</h2>
+        </div>
+        <div class="book-carousel" id="bookCarousel">
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/7222246-L.jpg" alt="The Great Gatsby">
+                <div class="book-title">The Great Gatsby</div>
+                <div class="book-author">F. Scott Fitzgerald</div>
+                <div class="book-price">$20.00</div>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/8228691-L.jpg" alt="To Kill a Mockingbird">
+                <div class="book-title">To Kill a Mockingbird</div>
+                <div class="book-author">Harper Lee</div>
+                <div class="book-price">$25.00</div>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/8091016-L.jpg" alt="Pride and Prejudice">
+                <div class="book-title">Pride and Prejudice</div>
+                <div class="book-author">Jane Austen</div>
+                <div class="book-price">$25.00</div>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/6979861-L.jpg" alt="The Hobbit">
+                <div class="book-title">The Hobbit</div>
+                <div class="book-author">J.R.R. Tolkien</div>
+                <div class="book-price">$28.00</div>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/5552226-L.jpg" alt="Moby-Dick">
+                <div class="book-title">Moby-Dick</div>
+                <div class="book-author">Herman Melville</div>
+                <div class="book-price">$30.00</div>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/8231856-L.jpg" alt="The Catcher in the Rye">
+                <div class="book-title">The Catcher in the Rye</div>
+                <div class="book-author">J.D. Salinger</div>
+                <div class="book-price">$24.00</div>
+            </div>
+            <div class="book-card">
+                <img src="https://covers.openlibrary.org/b/id/10523341-L.jpg" alt="The Alchemist">
+                <div class="book-title">The Alchemist</div>
+                <div class="book-author">Paulo Coelho</div>
+                <div class="book-price">$23.00</div>
+            </div>
+        </div>
+    </section>
+    <!-- Recommended Books -->
+    <section class="recommended-section">
+        <div class="recommended-header">
+            <div class="recommended-sub">This Month's</div>
+            <h2 class="section-title">RECOMMENDED BOOKS</h2>
+        </div>
+        <div class="recommended-grid" id="recommendedGrid">
+            <div class="recommended-card">
+                <img src="https://covers.openlibrary.org/b/id/10523339-L.jpg" alt="Kürk Mantolu Madonna">
+                <div class="recommended-title">Kürk Mantolu Madonna</div>
+                <div class="recommended-author">Sabahattin Ali</div>
+                <div class="book-price">$18.00</div>
+            </div>
+            <div class="recommended-card">
+                <img src="https://covers.openlibrary.org/b/id/10523344-L.jpg" alt="Tutunamayanlar">
+                <div class="recommended-title">Tutunamayanlar</div>
+                <div class="recommended-author">Oğuz Atay</div>
+                <div class="book-price">$22.00</div>
+            </div>
+            <div class="recommended-card">
+                <img src="https://covers.openlibrary.org/b/id/10523345-L.jpg" alt="Saatleri Ayarlama Enstitüsü">
+                <div class="recommended-title">Saatleri Ayarlama Enstitüsü</div>
+                <div class="recommended-author">Ahmet Hamdi Tanpınar</div>
+                <div class="book-price">$20.00</div>
+            </div>
+            <div class="recommended-card">
+                <img src="https://covers.openlibrary.org/b/id/10523346-L.jpg" alt="İnce Memed">
+                <div class="recommended-title">İnce Memed</div>
+                <div class="recommended-author">Yaşar Kemal</div>
+                <div class="book-price">$19.00</div>
+            </div>
+            <div class="recommended-card">
+                <img src="https://covers.openlibrary.org/b/id/10523347-L.jpg" alt="Çalıkuşu">
+                <div class="recommended-title">Çalıkuşu</div>
+                <div class="recommended-author">Reşat Nuri Güntekin</div>
+                <div class="book-price">$17.00</div>
+            </div>
+            <div class="recommended-card">
+                <img src="https://covers.openlibrary.org/b/id/10523348-L.jpg" alt="Yaban">
+                <div class="recommended-title">Yaban</div>
+                <div class="recommended-author">Yakup Kadri Karaosmanoğlu</div>
+                <div class="book-price">$16.00</div>
+            </div>
+            <div class="recommended-card">
+                <img src="https://covers.openlibrary.org/b/id/10523349-L.jpg" alt="Aşk-ı Memnu">
+                <div class="recommended-title">Aşk-ı Memnu</div>
+                <div class="recommended-author">Halit Ziya Uşaklıgil</div>
+                <div class="book-price">$21.00</div>
+            </div>
+        </div>
+    </section>
+    <!-- Big Slogan -->
+    <section class="slogan-section">
+        <h2 class="big-slogan">THERE'S NO SUCH THING AS TOO MANY BOOKS</h2>
+        <button class="btn-outline">Read Our Story</button>
+    </section>
+    <!-- Event/Book Launch -->
+    <section class="event-section" id="events">
+        <div class="event-content">
+            <div class="event-info">
+                <div class="event-title">Coming Up</div>
+                <h2 class="event-main">BOOK LAUNCH</h2>
+                <div class="event-desc">Introducing The Land of AILOO</div>
+                <div class="event-author">By Mark Walker</div>
+                <div class="event-date">Jul 12, 2035, 7:00 PM</div>
+                <div class="event-location">500 Terry Francois Street, San Francisco, CA, USA</div>
+                <button class="btn-outline">RSVP NOW</button>
+            </div>
+            <div class="event-image">
+                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80" alt="Book Launch">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">FONEM. Library</div>
+                <div>500 Terry Francois St.<br>Istanbul, Turkey</div>
+                <div>+90 555 123 4567</div>
+                <div>info@fonemlibrary.com</div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-title">Shop</div>
+                <div>FAQ</div>
+                <div>Shipping & Returns</div>
+                <div>Store Policy</div>
+                <div>Payment Methods</div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-title">Socials</div>
+                <div>Facebook</div>
+                <div>Twitter</div>
+                <div>Instagram</div>
+                <div>Pinterest</div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-title">Be the First to Know</div>
+                <input type="email" placeholder="Enter your email here *">
+                <button class="btn-outline">Subscribe</button>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2024 by FONEM. Library. Powered by you.</div>
+    </footer>
+    <!-- Admin Giriş Modalı -->
+    <div class="modal" id="adminLoginModal" tabindex="-1" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); align-items:center; justify-content:center;">
+      <div style="background:#fff; border-radius:12px; max-width:350px; width:90%; padding:2rem; box-shadow:0 8px 32px rgba(22,58,95,0.13); position:relative;">
+        <button id="closeAdminLoginModal" style="position:absolute; top:12px; right:16px; background:none; border:none; font-size:1.5rem; color:#163A5F; cursor:pointer;">&times;</button>
+        <h2 style="text-align:center; color:#163A5F; margin-bottom:1.2rem;">Admin Girişi</h2>
+        <form id="adminLoginForm">
+          <input type="text" id="adminUsername" placeholder="Kullanıcı Adı" required style="width:100%;margin-bottom:1rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+          <input type="password" id="adminPassword" placeholder="Şifre" required style="width:100%;margin-bottom:1.2rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+          <button type="submit" style="width:100%;background:#163A5F;color:#fff;padding:0.7rem 0;border:none;border-radius:6px;font-weight:600;cursor:pointer;">Giriş Yap</button>
+        </form>
+        <div id="adminLoginError" style="color:#c00; text-align:center; margin-top:0.7rem; display:none;">Hatalı giriş!</div>
+      </div>
+    </div>
+
+    <!-- Admin Paneli (başlangıçta gizli) -->
+    <div id="adminPanel" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.15); z-index:9998; align-items:center; justify-content:center;">
+      <div style="background:#fff; border-radius:14px; max-width:420px; width:90%; padding:2.2rem 2rem 2rem 2rem; box-shadow:0 8px 32px rgba(22,58,95,0.13); position:relative;">
+        <button id="closeAdminPanel" style="position:absolute; top:12px; right:16px; background:none; border:none; font-size:1.5rem; color:#163A5F; cursor:pointer;">&times;</button>
+        <h2 style="text-align:center; color:#163A5F; margin-bottom:1.2rem;">Admin Paneli</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; margin-bottom:1.5rem; flex-wrap:wrap;">
+          <button id="openAddBookModal" style="padding:0.7rem 1.2rem; border-radius:6px; border:1px solid #163A5F; background:#163A5F; color:#fff; font-weight:500; cursor:pointer;">Kitap Ekle</button>
+          <button id="openSearchBookModal" style="padding:0.7rem 1.2rem; border-radius:6px; border:1px solid #163A5F; background:#163A5F; color:#fff; font-weight:500; cursor:pointer;">Kitap Ara</button>
+          <button id="openAddMemberModal" style="padding:0.7rem 1.2rem; border-radius:6px; border:1px solid #163A5F; background:#163A5F; color:#fff; font-weight:500; cursor:pointer;">Üye Ekle</button>
+        </div>
+        <!-- Modallar -->
+        <!-- Kitap Ekle Modalı -->
+        <div class="modal" id="addBookModal" tabindex="-1" style="display:none; position:fixed; z-index:10000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); align-items:center; justify-content:center;">
+          <div style="background:#fff; border-radius:12px; max-width:350px; width:90%; padding:2rem; box-shadow:0 8px 32px rgba(22,58,95,0.13); position:relative;">
+            <button class="closeModal" data-modal="addBookModal" style="position:absolute; top:12px; right:16px; background:none; border:none; font-size:1.5rem; color:#163A5F; cursor:pointer;">&times;</button>
+            <h3 style="text-align:center; color:#163A5F; margin-bottom:1.2rem;">Kitap Ekle</h3>
+            <form id="addBookForm">
+              <input type="text" placeholder="Kitap Adı" required style="width:100%;margin-bottom:0.7rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <input type="text" placeholder="Yazar" required style="width:100%;margin-bottom:0.7rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <input type="text" placeholder="Yayınevi" style="width:100%;margin-bottom:0.7rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <input type="number" placeholder="Basım Yılı" style="width:100%;margin-bottom:0.7rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <input type="text" placeholder="ISBN" style="width:100%;margin-bottom:0.7rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <select required style="width:100%;margin-bottom:1.2rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+                <option value="">Durum Seçin</option>
+                <option value="Rafta">Rafta</option>
+                <option value="Stokta Yok">Stokta Yok</option>
+              </select>
+              <button type="submit" style="width:100%;background:#163A5F;color:#fff;padding:0.7rem 0;border:none;border-radius:6px;font-weight:600;cursor:pointer;">Ekle</button>
+            </form>
+          </div>
+        </div>
+        <!-- Kitap Ara Modalı -->
+        <div class="modal" id="searchBookModal" tabindex="-1" style="display:none; position:fixed; z-index:10000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); align-items:center; justify-content:center;">
+          <div style="background:#fff; border-radius:12px; max-width:350px; width:90%; padding:2rem; box-shadow:0 8px 32px rgba(22,58,95,0.13); position:relative;">
+            <button class="closeModal" data-modal="searchBookModal" style="position:absolute; top:12px; right:16px; background:none; border:none; font-size:1.5rem; color:#163A5F; cursor:pointer;">&times;</button>
+            <h3 style="text-align:center; color:#163A5F; margin-bottom:1.2rem;">Kitap Ara</h3>
+            <form id="searchBookForm">
+              <input type="text" id="searchBookName" placeholder="Kitap Adı" required style="width:100%;margin-bottom:1.2rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <button type="submit" style="width:100%;background:#163A5F;color:#fff;padding:0.7rem 0;border:none;border-radius:6px;font-weight:600;cursor:pointer;">Ara</button>
+            </form>
+            <div id="searchBookResult" style="margin-top:1rem; display:none; background:#f7f9fa; border-radius:8px; padding:0.8rem; color:#163A5F;"></div>
+          </div>
+        </div>
+        <!-- Üye Ekle Modalı -->
+        <div class="modal" id="addMemberModal" tabindex="-1" style="display:none; position:fixed; z-index:10000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); align-items:center; justify-content:center;">
+          <div style="background:#fff; border-radius:12px; max-width:350px; width:90%; padding:2rem; box-shadow:0 8px 32px rgba(22,58,95,0.13); position:relative;">
+            <button class="closeModal" data-modal="addMemberModal" style="position:absolute; top:12px; right:16px; background:none; border:none; font-size:1.5rem; color:#163A5F; cursor:pointer;">&times;</button>
+            <h3 style="text-align:center; color:#163A5F; margin-bottom:1.2rem;">Üye Ekle</h3>
+            <form id="addMemberForm">
+              <input type="text" placeholder="Ad" required style="width:100%;margin-bottom:0.7rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <input type="text" placeholder="Soyad" required style="width:100%;margin-bottom:0.7rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <input type="text" placeholder="T.C. Kimlik No" required style="width:100%;margin-bottom:0.7rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <input type="email" placeholder="E-posta" style="width:100%;margin-bottom:0.7rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <input type="tel" placeholder="Telefon" style="width:100%;margin-bottom:0.7rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <input type="text" placeholder="Adres" style="width:100%;margin-bottom:1.2rem;padding:0.6rem;border-radius:6px;border:1px solid #ccc;">
+              <button type="submit" style="width:100%;background:#163A5F;color:#fff;padding:0.7rem 0;border:none;border-radius:6px;font-weight:600;cursor:pointer;">Ekle</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById('loginBtn').onclick = function() {
+        document.getElementById('adminLoginModal').style.display = 'flex';
+      };
+      document.getElementById('closeAdminLoginModal').onclick = function() {
+        document.getElementById('adminLoginModal').style.display = 'none';
+      };
+      document.getElementById('adminLoginModal').onclick = function(e) {
+        if(e.target === this) this.style.display = 'none';
+      };
+      // Admin giriş kontrolü
+      document.getElementById('adminLoginForm').onsubmit = function(e) {
+        e.preventDefault();
+        var u = document.getElementById('adminUsername').value;
+        var p = document.getElementById('adminPassword').value;
+        if(u === 'admin' && p === '1234') {
+          document.getElementById('adminLoginModal').style.display = 'none';
+          document.getElementById('adminPanel').style.display = 'flex';
+          document.getElementById('adminLoginError').style.display = 'none';
+          document.getElementById('adminLoginForm').reset();
+          // Admin butonlarını göster
+          if(document.getElementById('adminActions')) document.getElementById('adminActions').style.display = 'block';
+        } else {
+          document.getElementById('adminLoginError').style.display = 'block';
+        }
+      };
+      // Admin panel kapama
+      document.getElementById('closeAdminPanel').onclick = function() {
+        document.getElementById('adminPanel').style.display = 'none';
+      };
+      document.getElementById('adminPanel').onclick = function(e) {
+        if(e.target === this) this.style.display = 'none';
+      };
+      // Modal açma/kapama işlemleri
+      ['openAddBookModal','openSearchBookModal','openAddMemberModal'].forEach(function(id){
+        var btn = document.getElementById(id);
+        if(btn) btn.onclick = function(){
+          var modalId = id.replace('open','').replace('Modal','Modal');
+          document.getElementById(modalId.charAt(0).toLowerCase()+modalId.slice(1)).style.display = 'flex';
+        };
+      });
+      document.querySelectorAll('.closeModal').forEach(function(btn){
+        btn.onclick = function(){
+          var modal = btn.getAttribute('data-modal');
+          document.getElementById(modal).style.display = 'none';
+        };
+      });
+      document.querySelectorAll('.modal').forEach(function(modal){
+        modal.onclick = function(e){
+          if(e.target === this) this.style.display = 'none';
+        };
+      });
+      // Kitap Ara demo: örnek kitaplar
+      var kitaplar = [
+        {ad:'Kürk Mantolu Madonna', durum:'Rafta'},
+        {ad:'Tutunamayanlar', durum:'Stokta Yok'},
+        {ad:'Saatleri Ayarlama Enstitüsü', durum:'Rafta'}
+      ];
+      if(document.getElementById('searchBookForm')) {
+        document.getElementById('searchBookForm').onsubmit = function(e){
+          e.preventDefault();
+          var name = document.getElementById('searchBookName').value.trim();
+          var result = kitaplar.find(function(k){ return k.ad.toLowerCase() === name.toLowerCase(); });
+          var resultDiv = document.getElementById('searchBookResult');
+          if(result) {
+            resultDiv.innerHTML = '<strong>'+result.ad+'</strong><br>Durum: <span style=\"font-weight:600;\">'+result.durum+'</span>';
+          } else {
+            resultDiv.innerHTML = 'Kitap bulunamadı.';
+          }
+          resultDiv.style.display = 'block';
+        };
+      }
+    </script>
+</body>
+</html>
