@@ -96,15 +96,6 @@ python check_db.py
 
 
 
-🛠️ Geliştirici Notları
-
-Kodlar Python 3 uyumludur.
-
-Veritabanı işlemleri sqlite3 ile gerçekleştirilir.
-
-Görsellerin doğru görünmesi için image/ dizini yapılandırılmalıdır.
-
-README.md otomatik üretim için list_all_content.py kullanılabilir.
 
 
 💻Hazırlayan: 
