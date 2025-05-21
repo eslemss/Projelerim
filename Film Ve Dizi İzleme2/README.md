@@ -1,4 +1,7 @@
-🎬 Film ve Dizi İzleme Uygulaması - Kullanıcı ve Geliştirici Dokümantasyonu
+🎬 Film ve Dizi İzleme Uygulaması 
+- Kullanıcı ve Geliştirici Dokümantasyonu
+
+  
 📌 Proje Tanımı
 Bu Python tabanlı uygulama, kullanıcıların film ve dizilerini veritabanı destekli olarak yönetmesine olanak tanır. Veritabanı üzerinde içerik ekleme, listeleme, güncelleme ve özel içerik işlemleri gerçekleştirilebilir.
 
