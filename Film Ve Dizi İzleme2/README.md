@@ -27,14 +27,23 @@ Veritabanı ID’si: Her içerik benzersiz ID’ye sahiptir
 Dosya/Modül	Açıklama
 
 app.py	Ana uygulama. Tüm işlemleri başlatır ve içerik kontrolünü sağlar.
+
 init_db.py	SQLite veritabanı kurulum işlemlerini yapar.
+
 update_db.py	Yeni içerikler ya da değişiklikler veritabanına yazılır.
+
 check_db.py	Mevcut içerikleri doğrular ya da listeler.
+
 add_wednesday.py	Örnek içerik olarak "Wednesday" dizisini ekler.
+
 check_wednesday.py	Wednesday dizisi için özel kontrol veya listeleme işlemleri.
+
 fix_image_paths.py, fix_delibal_image.py	Görsel yollarını düzenler veya düzeltir.
+
 list_all_content.py	Tüm içerikleri terminale basar.
+
 requirements.txt	Gerekli bağımlılıkları listeler (örn. sqlite3, os, pillow vb.).
+
 
 💻 Kullanım Adımları
 Ortam Kurulumu
