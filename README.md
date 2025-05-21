@@ -1,50 +1,81 @@
-📚 Kütüphane Yönetim Sistemi – Kullanıcı ve Geliştirici Dokümantasyonu
+📚 Kütüphane Yönetim Sistemi
+
+– Kullanıcı ve Geliştirici Dokümantasyonu
+
+
 📌 Proje Tanımı
+
 Bu web tabanlı sistem, kitapların ve kullanıcıların yönetimini sağlayan basit bir Kütüphane Yönetim Sistemi'dir. Kullanıcılar kitapları listeleyebilir, yeni kitap ekleyebilir ve sistem üzerindeki kitapları arayabilir.
 
 🧱 Uygulama Mimarisi
+
 📄 Ana Bileşenler
+
 Dosya	Açıklama
+
 index.html	Ana kullanıcı arayüzü. Kitap listeleme, ekleme ve arama işlemleri burada gerçekleşir.
+
 style.css	Web sayfası tasarımı ve görsel biçimlendirme işlemleri.
+
 app.js	Kitap ekleme, silme, filtreleme gibi işlemleri yöneten temel JavaScript dosyası.
+
 logo.png	Proje logosu.
+
 .git/	Proje git ile sürüm kontrolüne alınmış. Geliştirici geçmişi burada tutulur.
 
+
 💻 Kullanıcı Arayüzü Özellikleri
+
 📋 Kitap Listesi Görüntüleme: Var olan tüm kitapları tabloda gösterir.
+
 
 ➕ Yeni Kitap Ekleme: Form aracılığıyla başlık, yazar ve kategori bilgileri girilerek kitap eklenebilir.
 
+
 🔍 Kitap Arama/Filtreleme: Anahtar kelimeye göre filtreleme yapılabilir.
+
 
 🗑️ Kitap Silme: Listeden kitap silme işlevi mevcuttur (eğer uygulanmışsa).
 
+
 🎨 Responsive Tasarım: Stil dosyası sayesinde farklı cihazlarda uyumlu görüntüleme.
 
+
 ⚙️ Kurulum ve Kullanım
+
 Projeyi Açmak İçin
+
 
 Tüm dosyaları bir klasöre çıkartın.
 
+
 index.html dosyasını çift tıklayarak tarayıcıda açın.
+
 
 Kitap Ekleme Adımları
 
+
 Kitap adı, yazarı ve kategorisini girin.
+
 
 "Kitap Ekle" butonuna tıklayın.
 
+
 Liste otomatik güncellenecektir.
+
 
 Arama Yapma
 
+
 Sayfanın üst kısmındaki arama kutusuna metin girin.
+
 
 Liste anlık olarak filtrelenir.
 
 
+
 📸 Örnek Ekran Çıktıları
+
 
 --Anasayfa--
 
