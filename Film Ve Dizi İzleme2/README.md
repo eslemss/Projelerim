@@ -6,7 +6,9 @@
 Bu Python tabanlı uygulama, kullanıcıların film ve dizilerini veritabanı destekli olarak yönetmesine olanak tanır. Veritabanı üzerinde içerik ekleme, listeleme, güncelleme ve özel içerik işlemleri gerçekleştirilebilir.
 
 🧱 Uygulama Mimarisi
+
 🎥 İçerik Modülü
+
 Her film ya da dizi için aşağıdaki bilgiler tutulur:
 
 Ad: İçeriğin ismi (örn. "Wednesday")
