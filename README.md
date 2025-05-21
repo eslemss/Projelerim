@@ -56,6 +56,30 @@ bash Kopyala Düzenle python list_all_content.py Veritabanı Kontrol
 
 bash Kopyala Düzenle python check_db.py
 
+📸 Örnek Ekran Çıktıları
+
+--Ana Sayfa--
+![Ekran görüntüsü 2025-05-21 122405](https://github.com/user-attachments/assets/82e398d5-a95e-4cb5-ae18-d9aea83dd0e2)
+
+ --Giriş Yap--
+ 
+ ![Ekran görüntüsü 2025-05-21 122436](https://github.com/user-attachments/assets/86680218-f58e-4625-8b7a-19c90c7d7c7d)
+
+ --Kayıt Ol-- 
+
+ ![Ekran görüntüsü 2025-05-21 122447](https://github.com/user-attachments/assets/a813b006-a42b-4bbc-a77f-8fcad09a06f2)
+
+ 
+ --İzleme Listesi Ekleme--
+
+ ![Ekran görüntüsü 2025-05-21 122539](https://github.com/user-attachments/assets/36f59516-efa8-446e-9ae3-0dc3e7bedb1f)
+
+
+ --İzleme Listesi Silme--
+
+ ![Ekran görüntüsü 2025-05-21 122850](https://github.com/user-attachments/assets/c8bf2906-bd25-4ffc-b732-c3902ecf7bba)
+
+
 
 💻Hazırlayan: Ayşe Eslem Gökhan
 
