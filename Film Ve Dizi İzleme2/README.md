@@ -96,6 +96,7 @@ python check_db.py
 
 
 🛠️ Geliştirici Notları
+
 Kodlar Python 3 uyumludur.
 
 Veritabanı işlemleri sqlite3 ile gerçekleştirilir.
