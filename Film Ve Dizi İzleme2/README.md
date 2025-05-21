@@ -22,7 +22,10 @@ Görsel Yolu: İçeriğe ait görselin yolu
 Veritabanı ID’si: Her içerik benzersiz ID’ye sahiptir
 
 📂 Temel Dosya ve Modüller
+
+
 Dosya/Modül	Açıklama
+
 app.py	Ana uygulama. Tüm işlemleri başlatır ve içerik kontrolünü sağlar.
 init_db.py	SQLite veritabanı kurulum işlemlerini yapar.
 update_db.py	Yeni içerikler ya da değişiklikler veritabanına yazılır.
