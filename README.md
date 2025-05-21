@@ -1,6 +1,7 @@
 🎬 Film ve Dizi İzleme Uygulaması
 
 Kullanıcı ve Geliştirici Dokümantasyonu
+
 📌 Proje Tanımı
 
 Bu Python tabanlı uygulama, kullanıcıların film ve dizilerini veritabanı destekli olarak yönetmesine olanak tanır. Veritabanı üzerinde içerik ekleme, listeleme, güncelleme ve özel içerik işlemleri gerçekleştirilebilir.
@@ -55,9 +56,6 @@ bash Kopyala Düzenle python list_all_content.py Veritabanı Kontrol
 
 bash Kopyala Düzenle python check_db.py
 
-📸 Örnek Ekran Çıktıları
-
---Ana Sayfa-- image --Giriş Yap-- image --Kayıt Ol-- image --İzleme Listesi Ekleme-- image --İzleme Listesi Silme-- image
 
 💻Hazırlayan: Ayşe Eslem Gökhan
 
