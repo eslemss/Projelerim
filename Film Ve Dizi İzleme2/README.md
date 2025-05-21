@@ -60,16 +60,20 @@ bash
 Kopyala
 Düzenle
 python check_db.py
+
+
 📸 Örnek Ekran Çıktıları
+
+
 --Ana Sayfa--
 ![image](https://github.com/user-attachments/assets/d312047a-1ebe-4c3b-8dbf-fd7805103f1a)
 --Giriş Yap--
 ![image](https://github.com/user-attachments/assets/bc665416-5766-4e56-aa94-e4c4053b55c3)
 --Kayıt Ol--
 ![image](https://github.com/user-attachments/assets/10af3cb1-03d9-49a4-906d-31aee50d686e)
-
+--İzleme Listesi Ekleme--
 ![image](https://github.com/user-attachments/assets/baea7b7a-6e03-4f1e-90d9-b1387ba18a8f)
---İzleme Listesi--
+--İzleme Listesi Silme--
 ![image](https://github.com/user-attachments/assets/177dc329-2a78-4f57-8f60-b7cc74d1777a)
 
 
